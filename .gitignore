@@ -141,3 +141,10 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# .dat files are used by the tracker to store data, but they should not be committed to the repository
+*.dat
+
+.DS_Store
+
+Thumbs.db
